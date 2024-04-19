@@ -1,4 +1,4 @@
-# SkyOps API Solution by SillySquid
+# SkyOps Final Solution by SillySquid
 
 ![Project Logo](https://github.com/Collin-Edwards/MIST_353_Assignment_5/blob/master/The%20Final%20Logo.png)
 
