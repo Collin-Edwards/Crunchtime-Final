@@ -1,56 +1,64 @@
-# SkyOps Application README
+# SkyOps API Solution by SillySquid
 
 ![Project Logo](https://github.com/Collin-Edwards/MIST_353_Assignment_5/blob/master/The%20Final%20Logo.png)
 
 ![Beta Version](https://img.shields.io/badge/status-beta_4.0-orange.svg)
 ![Build](https://img.shields.io/badge/build-MIST_4.0-green.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
-
-
 [![Sponsor](https://img.shields.io/badge/sponsor-♥-ff69b4.svg)](https://github.com/sponsors/Collin-Edwards)
 [![Follow](https://img.shields.io/github/followers/Collin-Edwards?label=Follow&style=social)](https://github.com/Collin-Edwards)
-## Webpage Descriptions
 
-**Home Page** (Static)
-- **Overview:** Welcomes users with an engaging interface, showcasing the SkyOps mission and core features.
-- **Functionality:** Quick access to login/register, weather updates, and airport delay information. Features dynamic weather updates and news highlights related to aviation.
+## Overview
+SkyOps, developed by SillySquid Inc, is a cutting-edge web application designed to streamline airspace management. It offers a comprehensive API that integrates advanced user control mechanisms, class structures, and entity management, providing a robust framework for managing user data and interactions. This solution is especially tailored for military commanders, pilots, and air traffic controllers who require real-time information and navigational support to ensure mission success and safety.
 
-**User Registration/Login** (Dynamic)
-- **Overview:** Secure user registration and login portal.
-- **Functionality:** New users can register by providing essential information. Returning users can log in to access their profiles and application features. Integrates with a user management API.
+## Features
+- **Real-Time Airspace Management**: Offers up-to-date tools for managing busy and complex airspace environments.
+- **User Management**: Create, update, and delete user profiles seamlessly.
+- **Dynamic Web Interface**: Powered by the `CrunchtimeRazor` project for interactive user experiences.
+- **Scalable Architecture**: Modular classes and advanced routing for easy maintenance and scalability.
 
-**Weather Briefing Dashboard** (Dynamic)
-- **Overview:** A comprehensive dashboard displaying weather conditions for selected drop zones and airports.
-- **Functionality:** Users can search and select drop zones or airports to view detailed weather briefings, integrating real-time data from a weather API.
+## Technologies Used
+- **.NET Core**: For robust backend services.
+- **Razor Pages**: For dynamic frontend rendering.
+- **Entity Framework**: For efficient database interactions.
 
-**Airport Delay Tracker** (Dynamic)
-- **Overview:** Provides up-to-date information on delays at airports worldwide.
-- **Functionality:** Search functionality allows users to check for any delays at their airport of interest, integrating real-time data from an airport delay API.
+## Structure
+The SkyOps solution is structured into two main projects:
+- **Crunchtime**: Handles core logic and data operations.
+- **CrunchtimeRazor**: Manages the frontend and user interactions.
 
-**Profile Management** (Static/Dynamic)
-- **Overview:** Allows users to update their profile information.
-- **Functionality:** Users can edit their personal details, including passwords and email. This page will dynamically update the user's information in the database.
+## Getting Started
+To deploy SkyOps locally:
+1. Clone the repository.
+2. Install .NET Core and necessary SDKs.
+3. Build the solution using Visual Studio or .NET CLI commands.
+4. Launch the application to initialize the local server.
 
-**About Us** (Static)
-- **Overview:** Information about SkyOps, our vision, and the team behind the project.
-- **Functionality:** Static page with contact information, contributing to the project, and a Q&A section.
+## Usage
+Utilize the API through these primary endpoints:
+- `/users/create`: Endpoint for creating new users.
+- `/users/update/{id}`: Endpoint for updating existing users.
 
-## Contribution Guidelines
-
-We welcome contributions from the community! Whether you're looking to report a bug, suggest a feature, or contribute code, please follow our contribution guidelines detailed here. For any contributions, please open a pull request or issue on GitHub, ensuring you provide sufficient information and context.
-
-
-## License
-
-SkyOps is open source and available under the MIT License. This allows for its wide use, modification, and distribution. We believe in the power of open source to foster innovation and collaboration. For more details, refer to the LICENSE file in the project repository.
+## Contributing
+We welcome contributions from the community. To contribute:
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request for review.
 
 ## Contact Us
-
 For support, further inquiries, or feedback, please reach out to us below. We are dedicated to improving SkyOps and value your input.
+- **Collin Edwards**: [LinkedIn](https://www.linkedin.com/in/collin-edwards-6b751a244/)
+- **Matthew Wolfe**: [LinkedIn](https://www.linkedin.com/in/matthew-wolfe-6689061b2/)
 
-Collin Edwards:https://www.linkedin.com/in/collin-edwards-6b751a244/
+## Matthew Wolfe's Contribution
+Matthew Wolfe developed key features within SkyOps that focus on enhancing administrative capabilities and user engagement. Below is a detailed overview of his contributions:
+- **Administrative Tools**: The application allows administrators to add and update information for airports they are authorized to manage. This feature ensures that data integrity and relevance are maintained, enhancing operational efficiency.
+- **About Us Section**: Designed to inform users about the importance and benefits of choosing SkyOps, this section helps articulate why our product is essential for effective airspace management.
+- **Data Management Workflow**: Any new data submitted through the forms or updates made to existing data must undergo a review process. These changes are subject to approval by site administrators, ensuring that only accurate and appropriate information is published.
 
-Citations
+## Citations
+This project was inspired by and utilized information from various sources, including GitHub for code snippets and structural ideas. Additionally, the in-person lectures for MIST 353 were invaluable, and the ability to rewatch them on campus the next day greatly supported our development efforts.
+[ChatGPT Prompts](https://docs.google.com/document/d/1lTT42T5wpONMjBYGvr-L4pP5QgQvlrOmRiDHDNlB8kc/edit?usp=sharing)
 
-This project was inspired by and utilized information from various sources,GitHub for code snippets and structural ideas,and last but not least, the in-person lectures for MIST 353 and the accessibility that they were uploaded on campus the next day to rewatch the material.
-ChatGPT Prompts: https://docs.google.com/document/d/1lTT42T5wpONMjBYGvr-L4pP5QgQvlrOmRiDHDNlB8kc/edit?usp=sharing
+## License
+SkyOps is available under the MIT License. See the LICENSE file in the repository for more details.
